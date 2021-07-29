@@ -6,6 +6,7 @@ const AddTodoForm = () => {
 	const onSubmit = (event) => {
 		event.preventDefault();
 		console.log('user entered: ' + value);
+		setValue('');
 	};
 
 	return (
