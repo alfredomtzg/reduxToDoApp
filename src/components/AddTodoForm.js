@@ -15,7 +15,7 @@ const AddTodoForm = () => {
 			<input
 				type='text'
 				className='form-control mb-2 mr-sm-2'
-				placeholder='Add todo...'
+				placeholder='Add todo something...'
 				value={value}
 				onChange={(event) => setValue(event.target.value)}
 			></input>
