@@ -21,7 +21,7 @@ const AddTodoForm = () => {
 			></input>
 
 			<button type='submit' className='btn btn-primary mb-2'>
-				Submit
+				Submit...
 			</button>
 		</form>
 	);
