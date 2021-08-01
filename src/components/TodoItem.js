@@ -8,7 +8,7 @@ const TodoItem = ({ id, title, completed }) => {
 					<input type='checkbox' className='mr-3' checked={completed}></input>
 					{title}
 				</span>
-				<button className='btn btn-danger'>Delete</button>
+				<button className='btn btn-danger'>¡Delete!</button>
 			</div>
 		</li>
 	);
